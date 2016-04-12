@@ -1,0 +1,9 @@
+{
+  "name": "syamo",
+  "description": "web hook api for ChatWork",
+  "repository": "https://github.com/ledsun/syamo",
+  "keywords": ["web", "hook", "ChatWork"],
+  "env": {
+    "FBBOT_TOKEN": "",
+  }
+}
