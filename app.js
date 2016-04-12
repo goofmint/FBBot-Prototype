@@ -1,10 +1,8 @@
 var express = require('express');
 var app = express();
+var bodyParser = require('body-parser');
 
-app.configure(function(){
-  app.use(express.bodyParser());
-  app.use(app.router);
-});
+app.use(bodyParser.urlencoded());
 
 app.get('/webhook/', function (req, res) {
   if (req.query['hub.verify_token'] === process.env.FBBOT_TOKEN) {
