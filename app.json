@@ -3,6 +3,6 @@
   "description": "web hook api for Facebook",
   "keywords": ["web", "hook", "Facebook bot"],
   "env": {
-    "FBBOT_TOKEN": "",
+    "FBBOT_TOKEN": ""
   }
 }
