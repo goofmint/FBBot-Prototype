@@ -2,6 +2,10 @@
 
 This bot chat your word.
 
+## Screen shot
+
+![](./screenshot.png)
+
 ## Usage
 
 Depends on https://developers.facebook.com/docs/messenger-platform/quickstart

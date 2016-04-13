@@ -103,7 +103,15 @@ function sendTemplateMessage(sender) {
 
 function sendTextMessage(sender, text) {
   messageData = {
-    text:text
+    text: text
+  }
+  var m = text.match((/^I'm (.*?)(\.|$)/i));
+  if (m) {
+    messageData.text = "Hello, "+m[1]+", nice to meet you."
+  }
+  m = text.match((/^My name is (.*?)(\.|$)/i));
+  if (m) {
+    messageData.text = "Hello, "+m[1]+", nice to meet you."
   }
   sendMessage(sender, messageData);
 }
