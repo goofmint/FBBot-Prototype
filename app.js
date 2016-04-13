@@ -42,9 +42,21 @@ function sendButtonMessage(sender) {
         "template_type": "button",
         "text": "This is button template",
         "buttons": [
-          "Hello",
-          "Hi",
-          "こんにちは"
+          {
+            "type": "postback",
+            "title": "Hello",
+            "payload": "You choose Hello."
+          },
+          {
+            "type": "postback",
+            "title": "Hi",
+            "payload": "You choose Hi."
+          },
+          {
+            "type": "postback",
+            "title": "こんにちは",
+            "payload": "You choose こんにちは."
+          },
         ]
       }
     }
