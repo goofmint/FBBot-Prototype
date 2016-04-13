@@ -30,7 +30,7 @@ app.post('/webhook/', function (req, res) {
       }
       // Handle a text message from this sender
     } else if (event.postback) {
-      sendTextMessage(sender, "You selected " + event.postback);
+      sendTextMessage(sender, "You selected " + event.postback.payload);
     }
   }
   res.sendStatus(200);
