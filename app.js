@@ -47,17 +47,17 @@ function sendButtonMessage(sender) {
           {
             "type": "postback",
             "title": "Hello",
-            "payload": "You choose Hello."
+            "payload": "Hello"
           },
           {
             "type": "postback",
             "title": "Hi",
-            "payload": "You choose Hi."
+            "payload": "Hi"
           },
           {
             "type": "postback",
             "title": "こんにちは",
-            "payload": "You choose こんにちは."
+            "payload": "こんにちは"
           },
         ]
       }
