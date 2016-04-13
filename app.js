@@ -38,12 +38,15 @@ function sendButtonMessage(sender) {
   messageData = {
     "attachment": {
       "type": "template",
-      "text": "This is button template",
-      "buttons": [
-        "Hello",
-        "Hi",
-        "こんにちは"
-      ]
+      "payload": {
+        "template_type": "button",
+        "text": "This is button template",
+        "buttons": [
+          "Hello",
+          "Hi",
+          "こんにちは"
+        ]
+      }
     }
   };
   sendMessage(sender, messageData);
