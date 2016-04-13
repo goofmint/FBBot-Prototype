@@ -56,8 +56,8 @@ function sendButtonMessage(sender) {
           },
           {
             "type": "postback",
-            "title": "こんにちは",
-            "payload": "こんにちは"
+            "title": "こんにちは", // It's Japanese
+            "payload": "こんにちは" // It's Japanese
           },
         ]
       }
